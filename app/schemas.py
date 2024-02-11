@@ -18,15 +18,7 @@ class UserOut(BaseModel):
     email: EmailStr
     name: str
     surname: str
-    role: str
-    age: int
-    sex: str
     profile_image: str
-    bio: str
-    rating: int
-    works_at_company: int
-    amount_of_contacts: int
-    amount_of_problem_answers: int
     created_at: datetime
 
     class Config:
